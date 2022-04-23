@@ -1,5 +1,5 @@
 import io from "socket.io-client";
-const sockets = io("http://localhost:8000", {
+const sockets = io("https://ancient-retreat-51398.herokuapp.com", {
   autoConnect: true,
   forceNew: true,
 });
